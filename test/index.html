@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>aXe Mocha Unit Test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+    <script src="../node_modules/axe-core/axe.min.js"></script>
+  </head>
+  <body>
+    <script src="../node_modules/should/should.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <button id="taco-button">Coolest button ever</button>
+    <fieldset id="broken"><input></fieldset>
+
+    <script src="./a11y.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
