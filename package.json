@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp test"
   },
   "author": "Matt Isner <isnerms@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "axe-core": "^2.2.0",
+    "axe-core": "^2.4.2",
     "gulp": "^3.9.1",
     "gulp-mocha-phantomjs": "^0.12.1",
-    "mocha": "^3.4.1",
-    "should": "^11.2.1"
+    "mocha": "^3.5.3",
+    "should": "^13.1.0"
   }
 }
