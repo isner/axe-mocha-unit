@@ -1,7 +1,6 @@
 /* global describe, it, axe, document */
 
 describe('axe', function () {
-	'use strict';
 
 	it('should report that good HTML is good', function (done) {
 		var n = document.getElementById('taco-button');
